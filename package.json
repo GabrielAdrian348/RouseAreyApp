@@ -1,12 +1,11 @@
 {
-  "name": "rouseareyapp",
+  "name": "rousearey",
   "version": "1.0.0",
-  "description": "RouseAreyapp",
-  "main": "./servidor/index.js",
-  "type":"module",
+  "description": "Aplicacion Rouse Arey",
+  "main": "./server/index.js",
+  "type": "module",
   "scripts": {
-    "client": "node ./client/client.js",
-    "server": "node ./server/index.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
