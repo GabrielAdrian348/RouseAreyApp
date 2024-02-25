@@ -1,0 +1,17 @@
+{
+  "name": "rouseareyapp",
+  "version": "1.0.0",
+  "description": "RouseAreyapp",
+  "main": "./servidor/index.js",
+  "type":"module",
+  "scripts": {
+    "client": "node ./client/client.js",
+    "server": "node ./server/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5"
+  }
+}
