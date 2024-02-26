@@ -11,4 +11,9 @@ const clientTCP = net.connect(options);
 
 clientTCP.on("connect", () => {
     console.log("Cliente conectado");
+    const argv = process.argv.splice(2);
+
+    clientTCP.write(JSON.stringify(argv));
+
+    clientTCP.end();
 });
