@@ -1,4 +1,4 @@
-import { randomUUID } from "node:crypto";
+
 import fs from "node:fs";
 
 
@@ -12,11 +12,11 @@ const readHistory = () => {
 };
 
 // Reescribir el historial
-const writeHistory = (state) => {
+const writeHistory = (state, id) => {
     const data = readHistory();
 
     const register = {
-        id: randomUUID(),
+        id: id,
         date: new Date().toLocaleString(),
     }
 
